@@ -29,8 +29,8 @@
         <connection-url>jdbc:mysql://app-greeter3-mysql:3306/root;DB_CLOSE_ON_EXIT=FALSE;DB_CLOSE_DELAY=-1</connection-url>
         <driver>mysql</driver>
         <security>
-            <user-name>userGaO</user-name>
-            <password>f1On4doT</password>
+            <user-name>test</user-name>
+            <password>test1234</password>
         </security>
     </datasource>
 </datasources>
