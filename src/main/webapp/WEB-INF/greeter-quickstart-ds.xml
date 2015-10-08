@@ -26,7 +26,7 @@
         this in META-INF/persistence.xml -->
     <datasource jndi-name="java:jboss/datasources/GreeterQuickstartDS"
         pool-name="greeter-quickstart" enabled="true" use-java-context="true">
-        <connection-url>jdbc:mysql:root:greeter-app-mysql;DB_CLOSE_ON_EXIT=FALSE;DB_CLOSE_DELAY=-1</connection-url>
+        <connection-url>jdbc:mysql:root:greeter-app-mysql:3306;DB_CLOSE_ON_EXIT=FALSE;DB_CLOSE_DELAY=-1</connection-url>
         <driver>mysql</driver>
         <security>
             <user-name>userqY0</user-name>
